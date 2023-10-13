@@ -1,2 +1,5 @@
-venv
-src/__pycache__
+notebooks/.ipynb_checkpoints/
+notebooks/schema_in.json
+src.egg-info/
+src/__pycache__/
+venv/
