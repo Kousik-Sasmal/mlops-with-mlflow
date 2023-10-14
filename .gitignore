@@ -3,3 +3,5 @@ notebooks/schema_in.json
 src.egg-info/
 src/__pycache__/
 venv/
+prediction_service/__pycache__
+.vscode
