@@ -40,14 +40,15 @@ def train_and_evaluate(config_path):
     train_x = train.drop(target, axis=1)
     test_x = test.drop(target, axis=1)
 
-##################### MLFLOW #####################
-    mlflow_config = config['mlflow_config']
-    remote_server_uri = mlflow_config['remote_server_uri']
+################### MLFLOW ###############################
+    mlflow_config = config["mlflow_config"]
+    remote_server_uri = mlflow_config["remote_server_uri"]
 
     mlflow.set_tracking_uri(remote_server_uri)
-    mlflow.set_experiment(mlflow_config['experiment_name'])
 
-    with mlflow.start_run(run_name=mlflow_config['run_name']) as run:
+    mlflow.set_experiment(mlflow_config["experiment_name"])
+
+    with mlflow.start_run(run_name=mlflow_config["run_name"]) as mlops_run:
         lr = ElasticNet(
             alpha=alpha, 
             l1_ratio=l1_ratio, 
@@ -60,10 +61,10 @@ def train_and_evaluate(config_path):
 
         mlflow.log_param("alpha", alpha)
         mlflow.log_param("l1_ratio", l1_ratio)
-        mlflow.log_metric("rmse", rmse)
-        mlflow.log_metric("r2", r2)
-        mlflow.log_metric("mae", mae)
 
+        mlflow.log_metric("rmse", rmse)
+        mlflow.log_metric("mae", mae)
+        mlflow.log_metric("r2", r2)
 
         tracking_url_type_store = urlparse(mlflow.get_artifact_uri()).scheme
 
