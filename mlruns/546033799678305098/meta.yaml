@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/546033799678305098
+creation_time: 1697465587151
+experiment_id: '546033799678305098'
+last_update_time: 1697465587151
+lifecycle_stage: active
+name: ElasticNet regression

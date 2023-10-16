@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/546033799678305098/7bde9a6978474518b69aad96c4846871/artifacts
+end_time: 1697466277596
+entry_point_name: ''
+experiment_id: '546033799678305098'
+lifecycle_stage: active
+run_id: 7bde9a6978474518b69aad96c4846871
+run_name: capable-zebra-79
+run_uuid: 7bde9a6978474518b69aad96c4846871
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697466276816
+status: 3
+tags: []
+user_id: kousik

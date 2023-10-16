@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/546033799678305098/1526e10983084bd1b46503e54c538980/artifacts
+end_time: 1697465640873
+entry_point_name: ''
+experiment_id: '546033799678305098'
+lifecycle_stage: active
+run_id: 1526e10983084bd1b46503e54c538980
+run_name: mlops
+run_uuid: 1526e10983084bd1b46503e54c538980
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697465637948
+status: 3
+tags: []
+user_id: kousik

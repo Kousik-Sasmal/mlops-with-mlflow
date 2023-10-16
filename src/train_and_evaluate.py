@@ -74,7 +74,7 @@ def train_and_evaluate(config_path):
                 "model", 
                 registered_model_name=mlflow_config["registered_model_name"])
         else:
-            mlflow.sklearn.load_model(lr, "model")
+            mlflow.sklearn.log_model(lr, "model")
 
 
         # tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme

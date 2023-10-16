@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6fa91945a68f4e5eab2ea870db021fbf/artifacts
+end_time: 1697465637321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6fa91945a68f4e5eab2ea870db021fbf
+run_name: ambitious-kit-377
+run_uuid: 6fa91945a68f4e5eab2ea870db021fbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697465526925
+status: 3
+tags: []
+user_id: kousik
